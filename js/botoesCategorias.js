@@ -10,11 +10,11 @@ botoesCategorias.forEach((botao) => {
 });
 
 function filtrarPorCategoria(filtro) {
+  const valorFiltro = filtro.toLowerCase();
   const videos = document.querySelectorAll(".videos__item");
 
   for (const video of videos) {
     const categoria = video.querySelector(".categoria").textContent.toLowerCase();
-    const valorFiltro = filtro.toLowerCase();
 
     const mostrarVideo = valorFiltro === 'tudo' || categoria.includes(valorFiltro);
 
