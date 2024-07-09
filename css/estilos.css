@@ -341,7 +341,6 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .superior__secao__container {
     height: 63px;
-    color: var(--branco);
     font-size: 16px;
     background-color: var(--branco);
     padding: 0 20px;
@@ -395,7 +394,6 @@ input[type="search"]::-webkit-search-results-decoration {
 /* SEÇÃO VÍDEOS */
 
 .videos__container {
-    color: black;
     padding: 153px 20px 10px 20px;
 }
 
@@ -414,12 +412,10 @@ iframe {
 .descricao-video .titulo-video {
     font-weight: 700;
     font-size: 16px;
-    color: var(--cinza-escuro);
 }
 
 .descricao-video .titulo-canal {
     font-size: 14px;
-    color: var(--cinza-escuro);
 }
 
 @media(min-width: 834px) {
