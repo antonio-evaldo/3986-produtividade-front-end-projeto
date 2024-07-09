@@ -1,0 +1,90 @@
+.modo-escuro,
+.modo-escuro .cabecalho__container,
+.modo-escuro .pesquisar__input,
+.modo-escuro .menu__container,
+.modo-escuro .superior__secao__container {
+  background-color: var(--azul-profundo);
+}
+
+.modo-escuro {
+  color: var(--cinza-medio);
+}
+
+.modo-escuro .cabecalho__videos {
+  background-image: url("../img/modo_escuro/menu_superior/video_call.svg");
+}
+
+.modo-escuro .cabecalho__apps {
+  background-image: url("../img/modo_escuro/menu_superior/apps.svg");
+}
+
+.modo-escuro .cabecalho__notificacoes {
+  background-image: url("../img/modo_escuro/menu_superior/notifications.svg");
+}
+
+.modo-escuro .cabecalho__avatar {
+  background-image: url("../img/modo_escuro/menu_superior/Avatar.png");
+}
+
+.modo-escuro .icone__inicio::before {
+  content: url("../img/modo_escuro/menu_lateral/home.svg");
+}
+
+.modo-escuro .icone__explorar::before {
+  content: url("../img/modo_escuro/menu_lateral/explore.svg");
+}
+
+.modo-escuro .icone__shorts::before {
+  content: url("../img/modo_escuro/menu_lateral/airplay.svg");
+}
+
+.modo-escuro .icone__inscricoes::before {
+  content: url("../img/modo_escuro/menu_lateral/subscriptions.svg");
+}
+
+.modo-escuro .icone__biblioteca::before {
+  content: url("../img/modo_escuro/menu_lateral/video_library.svg");
+}
+
+.modo-escuro .icone__historico::before {
+  content: url("../img/modo_escuro/menu_lateral/history.svg");
+}
+
+.modo-escuro .icone__relogio::before {
+  content: url("../img/modo_escuro/menu_lateral/history_toggle_off.svg");
+}
+
+.modo-escuro .icone__like::before {
+  content: url("../img/modo_escuro/menu_lateral/thumb_up_alt.svg");
+}
+
+.modo-escuro .icone__mostrar::before {
+  content: url("../img/modo_escuro/menu_lateral/keyboard_arrow_down.svg");
+}
+
+.modo-escuro .icone__videos::before {
+  content: url("../img/modo_escuro/menu_lateral/ondemand_video.svg");
+}
+
+.modo-escuro .icone__filmes::before {
+  content: url("../img/modo_escuro/menu_lateral/movie.svg");
+}
+
+.modo-escuro .icone__jogos::before {
+  content: url("../img/modo_escuro/menu_lateral/sports_esports.svg");
+}
+
+.modo-escuro .botao-categoria {
+  background-color: var(--azul-escuro);
+  color: var(--cinza-medio);
+}
+
+.modo-escuro .botao-categoria:hover {
+  background-color: var(--cinza-medio);
+  color: var(--cinza-escuro);
+}
+
+.modo-escuro .botao-categoria.selecionado {
+  background-color: var(--azul-destaque-dark);
+  color: var(--branco);
+}
