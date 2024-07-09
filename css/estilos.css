@@ -54,12 +54,16 @@ input[type="search"]::-webkit-search-results-decoration {
     background-color: var(--branco);
     height: 80px;
     width: 100%;
-    padding: 0 25px;
+    padding: 0 32px 0 16px;
 }
 
 .logo__item {
     cursor: pointer;
     padding: 15px 0px;
+}
+
+.logo__item img {
+    height: 28px;
 }
 
 .pesquisar__input {
