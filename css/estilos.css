@@ -17,12 +17,6 @@
     --branco: #FFFFFF;
 }
 
-/* :root.modo-escuro {
-    --bg-cor-principal: var(--azul-profundo);
-    --bg-cor-secundaria: var(--cinza-medio);
-    --fonte-cor-principal: var(--cinza-medio);
-} */
-
 body {
     font-family: Roboto, Arial, Helvetica, sans-serif;
     background-color: var(--branco);
@@ -34,6 +28,14 @@ body {
     color: var(--cinza-escuro);
     box-sizing: border-box;
     text-align: center;
+}
+
+.modo-escuro,
+.modo-escuro .cabecalho__container,
+.modo-escuro .pesquisar__input,
+.modo-escuro .menu__container,
+.modo-escuro .superior__secao__container {
+    background-color: var(--azul-profundo);
 }
 
 ::-webkit-scrollbar {
