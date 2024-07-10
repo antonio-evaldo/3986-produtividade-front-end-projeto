@@ -74,6 +74,26 @@
   content: url("../img/modo_escuro/menu_lateral/sports_esports.svg");
 }
 
+.modo-escuro .newsletter {
+  background-color: var(--azul-escuro);
+}
+
+.modo-escuro .newsletter__inscreva-se {
+  color: var(--cinza-claro);
+}
+
+.modo-escuro .newsletter__input {
+  border: 1px solid var(--azul-destaque-dark);
+}
+
+.modo-escuro .newsletter__input::placeholder {
+  color: var(--azul-medio);
+}
+
+.modo-escuro .newsletter__botao-inscrever {
+  background-color: var(--azul-destaque-dark);
+}
+
 .modo-escuro .botao-categoria {
   background-color: var(--azul-escuro);
   color: var(--cinza-medio);
