@@ -285,10 +285,6 @@ input[type="search"]::-webkit-search-results-decoration {
     overflow-x: scroll;
 }
 
-/* .superior__itens {
-    position: relative;
-} */
-
 .secao-categorias__botao {
     display: inline-block;
     font-size: 16px;
