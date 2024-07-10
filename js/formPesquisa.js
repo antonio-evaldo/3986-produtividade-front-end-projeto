@@ -4,7 +4,7 @@ formPesquisa.addEventListener('submit', (evento) => {
   evento.preventDefault();
 });
 
-const barraDePesquisa = document.querySelector(".pesquisar__input");
+const barraDePesquisa = document.querySelector(".cabecalho__pesquisa__form__input");
 
 barraDePesquisa.addEventListener("input", filtrarPesquisa);
 
