@@ -306,11 +306,11 @@ input[type="search"]::-webkit-search-results-decoration {
     color: var(--branco);
 }
 
-/* SEÇÃO VÍDEOS */
-
-.videos-container {
-    padding: 153px 20px 10px 20px;
+.conteudo-principal {
+    padding: 153px 34px 16px;
 }
+
+/* SEÇÃO VÍDEOS */
 
 iframe {
     border-radius: 10px;
@@ -380,7 +380,7 @@ iframe {
 
     /*ESTILOS SEÇÃO VÍDEOS */
 
-    .videos-container {
+    .conteudo-principal {
         padding-left: 90px;
         padding-right: 17px;
     }
@@ -403,9 +403,8 @@ iframe {
 
     /* ESTILOS VIDEOS */
 
-    .videos-container {
+    .conteudo-principal {
         padding-right: 10px;
         padding-left: 248px;
     }
-
 }
