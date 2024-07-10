@@ -1,4 +1,4 @@
-const containerVideos = document.querySelector(".videos__container");
+const containerVideos = document.querySelector(".videos-container");
 
 async function buscarEMostrarVideos() {
   try {

@@ -1,4 +1,4 @@
-const formPesquisa = document.querySelector('.form__pesquisa');
+const formPesquisa = document.querySelector('.cabecalho__pesquisa__form');
 
 formPesquisa.addEventListener('submit', (evento) => {
   evento.preventDefault();

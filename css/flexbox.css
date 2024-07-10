@@ -1,6 +1,6 @@
 /* CABEÇALHO */
 
-.cabecalho__container {
+.cabecalho {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8,51 +8,51 @@
   top: 0;
 }
 
-.cabecalho__pesquisar__item {
+.cabecalho__pesquisa {
   display: none;
 }
 
-.form__pesquisa {
+.cabecalho__pesquisa__form {
   position: relative;
   flex: 1;
   display: flex;
   justify-content: center;
 }
 
-.secao-links-e-botao-switch {
+.cabecalho__links-e-botao-switch {
   display: flex;
 }
 
 /* MENU */
 
-.menu__container {
+.menu-lateral {
   position: fixed;
   bottom: 0%;
   height: 74px;
   width: 100%;
 }
 
-.menu__secao {
+.menu-lateral__secao {
   height: 100%;
 }
 
-.menu__secao:nth-child(2),
-.menu__secao:nth-child(3),
-.menu__secao:nth-child(4) {
+.menu-lateral__secao:nth-child(2),
+.menu-lateral__secao:nth-child(3),
+.menu-lateral__secao:nth-child(4) {
   display: none;
 }
 
-.menu__lista {
+.menu-lateral__lista {
   display: flex;
   justify-content: space-around;
   height: 100%;
 }
 
-.menu__lista li {
+.menu-lateral__lista li {
   align-self: center;
 }
 
-.menu__itens {
+.menu-lateral__itens {
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -60,7 +60,7 @@
 
 /* SEÇÃO SUPERIOR */
 
-.superior__secao__container {
+.secao-categorias {
   display: flex;
   align-items: center;
   white-space: nowrap;
@@ -70,7 +70,7 @@
 
 /* VIDEO */
 
-.videos__container {
+.videos-container {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -103,14 +103,14 @@
 @media (min-width: 834px) {
   /* MENU LATERAL*/
 
-  .menu__container {
+  .menu-lateral {
     left: 0;
     height: auto;
     width: 74px;
     top: 80px;
   }
 
-  .menu__lista {
+  .menu-lateral__lista {
     flex-direction: column;
     justify-content: flex-start;
     padding-top: 15px;
@@ -121,7 +121,7 @@
 @media (min-width: 1156px) {
   /* CABEÇALHO */
 
-  .cabecalho__pesquisar__item {
+  .cabecalho__pesquisa {
     display: block;
   }
 
@@ -133,28 +133,28 @@
 @media (min-width: 1440px) {
   /* MENU */
 
-  .menu__container {
+  .menu-lateral {
     width: 239px;
     overflow: scroll;
   }
   
-  .menu__secao {
+  .menu-lateral__secao {
     height: auto;
   }
 
-  .menu__secao:nth-child(2),
-  .menu__secao:nth-child(3),
-  .menu__secao:nth-child(4) {
+  .menu-lateral__secao:nth-child(2),
+  .menu-lateral__secao:nth-child(3),
+  .menu-lateral__secao:nth-child(4) {
     display: block;
   }
 
-  .menu__lista {
+  .menu-lateral__lista {
     height: auto;
     padding: 20px 17px 20px 15px;
     gap: 15px;
   }
 
-  .menu__itens {
+  .menu-lateral__itens {
     flex-direction: row;
     gap: 15px;
     align-items: center;

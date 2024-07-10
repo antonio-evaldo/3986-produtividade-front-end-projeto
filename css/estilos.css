@@ -44,19 +44,19 @@ input[type="search"]::-webkit-search-results-decoration {
 
 /* CABEÇALHO */
 
-.cabecalho__container {
+.cabecalho {
     background-color: var(--branco);
     height: 80px;
     width: 100%;
     padding: 0 32px 0 16px;
 }
 
-.logo__item {
+.cabecalho__logo {
     cursor: pointer;
     padding: 15px 0px;
 }
 
-.logo__item img {
+.cabecalho__logo img {
     height: 28px;
 }
 
@@ -75,7 +75,7 @@ input[type="search"]::-webkit-search-results-decoration {
     top: 37%;
 }
 
-.pesquisar__btn {
+.cabecalho__pesquisa__form__botao {
     background-color: var(--cinza-claro);
     border: 0px;
     border-radius: 0px 32px 32px 0px;
@@ -170,110 +170,110 @@ input[type="search"]::-webkit-search-results-decoration {
 
 /* MENU LATERAL */
 
-.menu__container {
+.menu-lateral {
     font-size: 14px;
     background-color: var(--branco);
 }
 
-.menu__container::-webkit-scrollbar {
+.menu-lateral::-webkit-scrollbar {
     width: 16px;
     background: transparent;
 }
 
-.menu__container::-webkit-scrollbar-track {
+.menu-lateral::-webkit-scrollbar-track {
     background: transparent;
 }
 
-.menu__container-wrapper:hover .menu__container::-webkit-scrollbar-thumb {
+.menu-lateral:hover::-webkit-scrollbar-thumb {
     background: var(--cinza-medio);
     border-radius: 8px;
     border: 4px solid transparent;
     background-clip: content-box;
 }
 
-.icone__inicio::before {
+.icone-inicio::before {
     content: url("../img/modo_claro/menu_lateral/home.svg");
 }
 
-.icone__explorar::before {
+.icone-explorar::before {
     content: url("../img/modo_claro/menu_lateral/explore.svg");
 }
 
-.icone__shorts::before {
+.icone-shorts::before {
     content: url("../img/modo_claro/menu_lateral/airplay.svg");
 }
 
-.icone__inscricoes::before {
+.icone-inscricoes::before {
     content: url("../img/modo_claro/menu_lateral/subscriptions.svg");
 }
 
-.icone__biblioteca::before {
+.icone-biblioteca::before {
     content: url("../img/modo_claro/menu_lateral/video_library.svg");
 }
 
-.icone__historico::before {
+.icone-historico::before {
     content: url("../img/modo_claro/menu_lateral/history.svg");
 }
 
-.icone__relogio::before {
+.icone-relogio::before {
     content: url("../img/modo_claro/menu_lateral/history_toggle_off.svg");
 }
 
-.icone__like::before {
+.icone-like::before {
     content: url("../img/modo_claro/menu_lateral/thumb_up_alt.svg");
 }
 
-.icone__alura::before {
+.icone-alura::before {
     content: url("../img/modo_claro/menu_lateral/Avatar_Alura.png");
 }
 
-.icone__gaveta::before {
+.icone-gaveta::before {
     content: url("../img/modo_claro/menu_lateral/Avatar_Gaveta.png");
 }
 
-.icone__ballerini::before {
+.icone-ballerini::before {
     content: url("../img/modo_claro/menu_lateral/Avatar_Rafa.png");
 }
 
-.icone__iamarino::before {
+.icone-iamarino::before {
     content: url("../img/modo_claro/menu_lateral/Avatar_Atila.png");
 }
 
-.icone__souto::before {
+.icone-souto::before {
     content: url("../img/modo_claro/menu_lateral/Avatar_Souto.png");
 }
 
-.icone__nerd::before {
+.icone-nerd::before {
     content: url("../img/modo_claro/menu_lateral/Avatar_Jovem_Nerd.png");
 }
 
-.icone__deschamps::before {
+.icone-deschamps::before {
     content: url("../img/modo_claro/menu_lateral/Avatar_Deschamps.png");
 }
 
-.icone__mostrar::before {
+.icone-mostrar::before {
     content: url("../img/modo_claro/menu_lateral/keyboard_arrow_down.svg");
 }
 
-.icone__mostrar-rotacionado {
+.icone-mostrar-rotacionado {
     transform: rotateX(0.5turn)
 }
 
-.icone__videos::before {
+.icone-videos::before {
     content: url("../img/modo_claro/menu_lateral/ondemand_video.svg");
 }
 
-.icone__filmes::before {
+.icone-filmes::before {
     content: url("../img/modo_claro/menu_lateral/movie.svg");
 }
 
-.icone__jogos::before {
+.icone-jogos::before {
     content: url("../img/modo_claro/menu_lateral/sports_esports.svg");
 }
 
 /* SECAO SUPERIOR */
 
-.superior__secao__container {
+.secao-categorias {
     height: 63px;
     font-size: 16px;
     background-color: var(--branco);
@@ -289,7 +289,7 @@ input[type="search"]::-webkit-search-results-decoration {
     position: relative;
 } */
 
-.botao-categoria {
+.secao-categorias__botao {
     display: inline-block;
     font-size: 16px;
     color: var(--cinza-escuro);
@@ -299,20 +299,20 @@ input[type="search"]::-webkit-search-results-decoration {
     cursor: pointer;
 }
 
-.botao-categoria:hover {
+.secao-categorias__botao:hover {
     background-color: var(--cinza-medio);
     color: var(--cinza-escuro);
     transition: .5s;
 }
 
-.botao-categoria.selecionado {
+.secao-categorias__botao.selecionado {
     background: var(--azul-destaque-light);
     color: var(--branco);
 }
 
 /* SEÇÃO VÍDEOS */
 
-.videos__container {
+.videos-container {
     padding: 153px 20px 10px 20px;
 }
 
@@ -345,11 +345,11 @@ iframe {
 
     /* ESTILOS DO MENU LATERAL */
 
-    .menu__container {
+    .menu-lateral {
         font-size: 16px;
     }
 
-    .menu__secao-titulo {
+    .menu-lateral__secao-titulo {
         display: block;
         padding: 24px 16px 0;
         text-align: start;
@@ -357,25 +357,25 @@ iframe {
         text-transform: uppercase;
     }
 
-    .menu__lista {
+    .menu-lateral__lista {
         padding: 16px 8px;
     }
 
-    .menu__lista li {
+    .menu-lateral__lista li {
         width: 100%;
     }
 
-    .menu__lista .menu__itens {
+    .menu-lateral__lista .menu-lateral__itens {
         font-size: 14px;
     }
 
-    .menu__links-principais .menu__itens {
+    .menu-lateral__links-principais .menu-lateral__itens {
         font-weight: 500;
     }
 
     /* ESTILOS DA SECAO SUPERIOR */
 
-    .superior__secao__container {
+    .secao-categorias {
         border-top: var(--azul-medio) 1px solid;
         border-bottom: var(--azul-medio) 1px solid;
         width: auto;
@@ -384,7 +384,7 @@ iframe {
 
     /*ESTILOS SEÇÃO VÍDEOS */
 
-    .videos__container {
+    .videos-container {
         padding-left: 90px;
         padding-right: 17px;
     }
@@ -395,19 +395,19 @@ iframe {
 
     /* SEÇÃO SUPERIOR */
 
-    .superior__secao__container {
+    .secao-categorias {
         left: 247px;
     }
 
     /* ESTILOS DO MENU LATERAL */
 
-    .menu__secao {
+    .menu-lateral__secao {
         border-bottom: 1.5px solid var(--azul-medio);
     }
 
     /* ESTILOS VIDEOS */
 
-    .videos__container {
+    .videos-container {
         padding-right: 10px;
         padding-left: 248px;
     }

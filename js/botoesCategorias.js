@@ -1,4 +1,4 @@
-const botoesCategorias = document.querySelectorAll(".botao-categoria");
+const botoesCategorias = document.querySelectorAll(".secao-categorias__botao");
 
 botoesCategorias.forEach((botao) => {
   botao.addEventListener("click", () => {
