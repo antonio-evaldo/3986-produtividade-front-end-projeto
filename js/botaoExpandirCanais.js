@@ -13,14 +13,14 @@ botaoExpandirCanais.addEventListener("click", () => {
     canaisEstaoExpandidos = true;
 
     botaoExpandirCanais.innerHTML = `
-      <i class="icone__mostrar icone__mostrar-rotacionado"></i>
+      <i class="icone-mostrar icone-mostrar-rotacionado"></i>
       <span class="texto-colapsar-canais">Mostrar menos</span>
     `;
   } else {
     canaisEstaoExpandidos = false;
 
     botaoExpandirCanais.innerHTML = `
-      <i class="icone__mostrar"></i>
+      <i class="icone-mostrar"></i>
       <span class="texto-colapsar-canais">Mostrar mais 2</span>
     `;
   }
