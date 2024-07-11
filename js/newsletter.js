@@ -2,7 +2,7 @@ document.querySelector('.newsletter').addEventListener('submit', function (event
   event.preventDefault();
 
   const email = document.querySelector('.newsletter__input').value;
-  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 
   if (emailRegex.test(email)) {
     alert('Email válido! Formulário enviado.');
