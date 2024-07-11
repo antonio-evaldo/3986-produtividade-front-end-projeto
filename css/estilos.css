@@ -356,6 +356,7 @@ input[type="search"]::-webkit-search-results-decoration {
     font-size: 14px;
     font-weight: 500;
     line-height: 16.41px;
+    cursor: pointer;
 }
 
 /* SEÇÃO VÍDEOS */
