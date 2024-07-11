@@ -1,3 +1,5 @@
+const dialog = document.querySelector('.dialog-confirmacao');
+
 document.querySelector('.newsletter').addEventListener('submit', function (event) {
   event.preventDefault();
 
@@ -5,10 +7,20 @@ document.querySelector('.newsletter').addEventListener('submit', function (event
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 
   if (emailRegex.test(email)) {
-    alert('Email válido! Formulário enviado.');
-    // Aqui você pode enviar o formulário ou realizar outra ação
-    // this.submit(); // Para enviar o formulário
+    dialog.showModal();
   } else {
     alert('Por favor, insira um email válido.');
+  }
+});
+
+// Fechar o dialog quando o usuário clicar no "x"
+document.querySelector('.dialog-confirmacao__fechar').addEventListener('click', function () {
+  dialog.close();
+});
+
+// Fechar o dialog quando o usuário clicar fora da janela
+document.addEventListener('click', function (event) {
+  if (event.target === dialog) {
+    dialog.close();
   }
 });

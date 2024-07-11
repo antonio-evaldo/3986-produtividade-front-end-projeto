@@ -359,6 +359,18 @@ input[type="search"]::-webkit-search-results-decoration {
     cursor: pointer;
 }
 
+.dialog-confirmacao {
+    padding: 0;
+}
+
+.dialog-confirmacao__janela {
+    padding: 40px;
+}
+
+.dialog-confirmacao::backdrop {
+    background: rgba(0, 0, 0, 0.5);
+}
+
 /* SEÇÃO VÍDEOS */
 
 .conteudo-principal {
