@@ -3,7 +3,7 @@
 .modo-escuro .pesquisar__input,
 .modo-escuro .menu__container,
 .modo-escuro .superior__secao__container {
-  background-color: var(--azul-profundo);
+  background-color: var(--azul-void);
 }
 
 .modo-escuro {
@@ -75,7 +75,7 @@
 }
 
 .modo-escuro .newsletter {
-  background-color: var(--azul-escuro);
+  background-color: var(--azul-primario);
 }
 
 .modo-escuro .newsletter__inscreva-se {
@@ -94,8 +94,20 @@
   background-color: var(--azul-destaque-dark);
 }
 
+.modo-escuro .dialog-confirmacao {
+  background-color: var(--azul-primario);
+}
+
+.modo-escuro .dialog-confirmacao__texto {
+  color: var(--cinza-medio);
+}
+
+.modo-escuro .dialog-confirmacao__fechar {
+  background-color: var(--azul-destaque-dark);
+}
+
 .modo-escuro .botao-categoria {
-  background-color: var(--azul-escuro);
+  background-color: var(--azul-primario);
   color: var(--cinza-medio);
 }
 

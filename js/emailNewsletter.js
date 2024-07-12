@@ -13,7 +13,7 @@ document.querySelector('.newsletter').addEventListener('submit', function (event
   }
 });
 
-// Fechar o dialog quando o usuário clicar no "x"
+// Fechar o dialog quando o usuário clicar no botão de "Ok"
 document.querySelector('.dialog-confirmacao__fechar').addEventListener('click', function () {
   dialog.close();
 });
