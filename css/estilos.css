@@ -6,8 +6,8 @@
 }
 
 :root {
-    --azul-profundo: #01080E;
-    --azul-escuro: #041832;
+    --azul-void: #01080E;
+    --azul-primario: #041832;
     --azul-medio: #144480;
     --azul-destaque-light: #0e71eb;
     --azul-destaque-dark: #1a76d8;
@@ -290,7 +290,7 @@ input[type="search"]::-webkit-search-results-decoration {
     font-size: 16px;
     color: var(--cinza-escuro);
     background-color: var(--cinza-claro);
-    border-radius: 20px;
+    border-radius: 8px;
     padding: 8px 20px;
     cursor: pointer;
 }
@@ -326,7 +326,7 @@ input[type="search"]::-webkit-search-results-decoration {
     font-weight: 700;
     font-size: 16px;
     line-height: 18.75px;
-    color: var(--azul-profundo);
+    color: var(--azul-void);
 }
 
 .newsletter__input-e-botao-container {
