@@ -60,7 +60,7 @@ input[type="search"]::-webkit-search-results-decoration {
     height: 28px;
 }
 
-.cabecalho__pesquisa__form__input {
+.cabecalho__input-pesquisa {
     position: relative;
     padding: 14px 12px;
     background-color: var(--branco);
@@ -69,13 +69,13 @@ input[type="search"]::-webkit-search-results-decoration {
     font-size: 16px;
 }
 
-.cabecalho__pesquisa__form__img-teclado {
+.cabecalho__input-img-teclado {
     position: absolute;
     right: 58px;
     top: 37%;
 }
 
-.cabecalho__pesquisa__form__botao {
+.cabecalho__botao-pesquisa {
     background-color: var(--cinza-claro);
     border: 0px;
     border-radius: 0px 32px 32px 0px;
@@ -191,83 +191,83 @@ input[type="search"]::-webkit-search-results-decoration {
     background-clip: content-box;
 }
 
-.icone-inicio::before {
+.menu-lateral__icone-inicio::before {
     content: url("../img/modo_claro/menu_lateral/home.svg");
 }
 
-.icone-explorar::before {
+.menu-lateral__icone-explorar::before {
     content: url("../img/modo_claro/menu_lateral/explore.svg");
 }
 
-.icone-shorts::before {
+.menu-lateral__icone-shorts::before {
     content: url("../img/modo_claro/menu_lateral/airplay.svg");
 }
 
-.icone-inscricoes::before {
+.menu-lateral__icone-inscricoes::before {
     content: url("../img/modo_claro/menu_lateral/subscriptions.svg");
 }
 
-.icone-biblioteca::before {
+.menu-lateral__icone-biblioteca::before {
     content: url("../img/modo_claro/menu_lateral/video_library.svg");
 }
 
-.icone-historico::before {
+.menu-lateral__icone-historico::before {
     content: url("../img/modo_claro/menu_lateral/history.svg");
 }
 
-.icone-relogio::before {
+.menu-lateral__icone-relogio::before {
     content: url("../img/modo_claro/menu_lateral/history_toggle_off.svg");
 }
 
-.icone-like::before {
+.menu-lateral__icone-like::before {
     content: url("../img/modo_claro/menu_lateral/thumb_up_alt.svg");
 }
 
-.icone-alura::before {
+.menu-lateral__icone-alura::before {
     content: url("../img/modo_claro/menu_lateral/Avatar_Alura.png");
 }
 
-.icone-gaveta::before {
+.menu-lateral__icone-gaveta::before {
     content: url("../img/modo_claro/menu_lateral/Avatar_Gaveta.png");
 }
 
-.icone-ballerini::before {
+.menu-lateral__icone-ballerini::before {
     content: url("../img/modo_claro/menu_lateral/Avatar_Rafa.png");
 }
 
-.icone-iamarino::before {
+.menu-lateral__icone-iamarino::before {
     content: url("../img/modo_claro/menu_lateral/Avatar_Atila.png");
 }
 
-.icone-souto::before {
+.menu-lateral__icone-souto::before {
     content: url("../img/modo_claro/menu_lateral/Avatar_Souto.png");
 }
 
-.icone-nerd::before {
+.menu-lateral__icone-nerd::before {
     content: url("../img/modo_claro/menu_lateral/Avatar_Jovem_Nerd.png");
 }
 
-.icone-deschamps::before {
+.menu-lateral__icone-deschamps::before {
     content: url("../img/modo_claro/menu_lateral/Avatar_Deschamps.png");
 }
 
-.icone-mostrar::before {
+.menu-lateral__icone-mostrar::before {
     content: url("../img/modo_claro/menu_lateral/keyboard_arrow_down.svg");
 }
 
-.icone-mostrar-rotacionado {
+.menu-lateral__icone-mostrar--rotacionado {
     transform: rotateX(0.5turn)
 }
 
-.icone-videos::before {
+.menu-lateral__icone-videos::before {
     content: url("../img/modo_claro/menu_lateral/ondemand_video.svg");
 }
 
-.icone-filmes::before {
+.menu-lateral__icone-filmes::before {
     content: url("../img/modo_claro/menu_lateral/movie.svg");
 }
 
-.icone-jogos::before {
+.menu-lateral__icone-jogos::before {
     content: url("../img/modo_claro/menu_lateral/sports_esports.svg");
 }
 
@@ -370,18 +370,18 @@ iframe {
     height: 62%;
 }
 
-.descricao-video .link-img-canal {
+.video-principal__link-img-canal {
     border-radius: 100%;
     width: 40px;
     height: 40px;
 }
 
-.descricao-video .titulo-video {
+.video-principal__titulo-video {
     font-weight: 700;
     font-size: 16px;
 }
 
-.descricao-video .titulo-canal {
+.video-principal__titulo-canal {
     font-size: 14px;
 }
 
@@ -413,11 +413,11 @@ iframe {
         width: 100%;
     }
 
-    .menu-lateral__lista .menu-lateral__itens {
+    .menu-lateral__item {
         font-size: 14px;
     }
 
-    .menu-lateral__links-principais .menu-lateral__itens {
+    .menu-lateral__links-principais .menu-lateral__item {
         font-weight: 500;
     }
 
@@ -426,7 +426,7 @@ iframe {
     .newsletter {
         margin-bottom: 40px;
     }
-    
+
     .newsletter__input {
         max-width: 400px;
     }

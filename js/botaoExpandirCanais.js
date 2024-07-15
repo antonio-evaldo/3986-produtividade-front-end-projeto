@@ -1,6 +1,6 @@
-const canaisExtras = document.querySelectorAll(".menu__canal.escondido");
+const canaisExtras = document.querySelectorAll(".menu-lateral__canal.escondido");
 
-const botaoExpandirCanais = document.querySelector(".menu__botao-expandir-canais");
+const botaoExpandirCanais = document.querySelector(".menu-lateral__botao-expandir-canais");
 
 let canaisEstaoExpandidos = false;
 
@@ -13,14 +13,14 @@ botaoExpandirCanais.addEventListener("click", () => {
     canaisEstaoExpandidos = true;
 
     botaoExpandirCanais.innerHTML = `
-      <i class="icone-mostrar icone-mostrar-rotacionado"></i>
+      <i class="menu-lateral__icone-mostrar menu-lateral__icone-mostrar--rotacionado"></i>
       <span class="texto-colapsar-canais">Mostrar menos</span>
     `;
   } else {
     canaisEstaoExpandidos = false;
 
     botaoExpandirCanais.innerHTML = `
-      <i class="icone-mostrar"></i>
+      <i class="menu-lateral__icone-mostrar"></i>
       <span class="texto-colapsar-canais">Mostrar mais 2</span>
     `;
   }

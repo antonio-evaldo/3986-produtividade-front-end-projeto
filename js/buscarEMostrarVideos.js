@@ -10,17 +10,17 @@ async function buscarEMostrarVideos() {
         throw new Error('Vídeo não tem categoria');
       }
       containerVideos.innerHTML += `
-        <li class="videos__item">
+        <li class="video-principal">
             <iframe src="${video.url}" title="${video.titulo}" frameborder="0" allowfullscreen></iframe>
-            <div class="descricao-video">
-                <a class="link-img-canal" href="#">
+            <div class="video-principal__info">
+                <a class="video-principal__link-img-canal" href="#">
                     <img src="${video.imagem}" alt="Canal ${video.canal}">
                 </a>
                 <a href="#">
-                    <h3 class="titulo-video">${video.titulo}</h3>
+                    <h3 class="video-principal__titulo-video">${video.titulo}</h3>
                 </a>
-                <p class="titulo-canal">${video.descricao}</p>
-                <p class="categoria" hidden>${video.categoria}</p>
+                <p class="video-principal__titulo-canal">${video.descricao}</p>
+                <p class="video-principal__categoria" hidden>${video.categoria}</p>
             </div>
         </li>
       `;
