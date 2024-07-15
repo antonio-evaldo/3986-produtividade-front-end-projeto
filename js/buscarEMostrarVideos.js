@@ -11,7 +11,7 @@ async function buscarEMostrarVideos() {
       }
       containerVideos.innerHTML += `
         <li class="video-principal">
-            <iframe src="${video.url}" title="${video.titulo}" frameborder="0" allowfullscreen></iframe>
+            <iframe class="video-principal__iframe" src="${video.url}" title="${video.titulo}" frameborder="0" allowfullscreen></iframe>
             <div class="video-principal__info">
                 <a class="video-principal__link-img-canal" href="#">
                     <img src="${video.imagem}" alt="Canal ${video.canal}">
